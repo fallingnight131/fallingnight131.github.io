@@ -30,11 +30,11 @@ code.paintMermaid();
 </script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {gitalk = new Gitalk({
  clientID: 'Ov23li3LdBB4FnZl5RkD',
  clientSecret: 'de3ff87ddb23e84f77d97ed47f4c1133ee88ce76',
- repo: 'blog_comments',
+ repo: 'fallingnight131.github.io',
  owner: 'fallingnight131',
  admin: ['fallingnight131'],
  distractionFreeMode: false,
- id: location.pathname
+ id: md5(location.pathname)
 });
 if (document.querySelector("#gitalk")) gitalk.render("gitalk");document.querySelector('.lg-container')?.remove()
 lightGallery(document.getElementById('post-bg'), {
@@ -55,11 +55,11 @@ lightGallery(document.getElementById('post-bg'), {
 document.addEventListener("pjax:complete", reset);reset()})</script><script class="pjax-js">reset= () => {gitalk = new Gitalk({
  clientID: 'Ov23li3LdBB4FnZl5RkD',
  clientSecret: 'de3ff87ddb23e84f77d97ed47f4c1133ee88ce76',
- repo: 'blog_comments',
+ repo: 'fallingnight131.github.io',
  owner: 'fallingnight131',
  admin: ['fallingnight131'],
  distractionFreeMode: false,
- id: location.pathname
+ id: md5(location.pathname)
 });
 if (document.querySelector("#gitalk")) gitalk.render("gitalk");document.querySelector('.lg-container')?.remove()
 lightGallery(document.getElementById('post-bg'), {
