@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fallingnight131.github.io/links-portals/index.html</loc>
+    
+    <lastmod>2024-10-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fallingnight131.github.io/about/index.html</loc>
     
-    <lastmod>2024-10-09</lastmod>
+    <lastmod>2024-10-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -28,19 +37,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://fallingnight131.github.io/links-portals/index.html</loc>
-    
-    <lastmod>2024-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://fallingnight131.github.io/</loc>
-    <lastmod>2024-10-09</lastmod>
+    <lastmod>2024-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
