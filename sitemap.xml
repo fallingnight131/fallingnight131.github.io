@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fallingnight131.github.io/2024/10/06/hello-world/</loc>
+    
+    <lastmod>2024-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fallingnight131.github.io/2024/10/26/Git%E5%92%8CGithub%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</loc>
+    
+    <lastmod>2024-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fallingnight131.github.io/2024/10/22/P1002-%E8%BF%87%E6%B2%B3%E5%8D%92/</loc>
     
     <lastmod>2024-10-22</lastmod>
@@ -74,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://fallingnight131.github.io/2024/10/06/hello-world/</loc>
-    
-    <lastmod>2024-10-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://fallingnight131.github.io/2024/10/08/%E5%9C%A8Arknights-%E4%B8%BB%E9%A2%98%E4%B8%AD%E9%80%9A%E8%BF%87valine%E9%85%8D%E7%BD%AE%E8%AF%84%E8%AE%BA%E5%8C%BA/</loc>
     
     <lastmod>2024-10-12</lastmod>
@@ -94,7 +103,7 @@
 
   <url>
     <loc>https://fallingnight131.github.io/</loc>
-    <lastmod>2024-10-22</lastmod>
+    <lastmod>2024-10-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
