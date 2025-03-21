@@ -10,7 +10,24 @@
   font-family: 'JetBrains Mono';
   src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
 }
-</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"键入以继续","blurHolder":"数据检索","noResult":"无 $0 相关数据"},"code":{"codeInfo":"$0 - $1 行","copy":"复制"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
+</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"键入以继续","blurHolder":"数据检索","noResult":"无 $0 相关数据"},"code":{"codeInfo":"$0 - $1 行","copy":"复制"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js"></script><script>MathJax.Hub.Config({
+ menuSettings: {
+   zoom: "None"
+ },
+ showMathMenu: false,
+ jax: ["input/TeX","output/CommonHTML"],
+ extensions: ["tex2jax.js"],
+ TeX: {
+   extensions: ["AMSmath.js","AMSsymbols.js"],
+   equationNumbers: {
+     autoNumber: "AMS"
+   }
+ },
+ tex2jax: {
+   inlineMath: [["\\(", "\\)"]],
+   displayMath: [["\\[", "\\]"]]
+ }
+});</script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
  document.documentElement.setAttribute('theme-mode', 'light')
 if (window.localStorage.getItem('theme-mode') === 'dark')
  document.documentElement.setAttribute('theme-mode', 'dark')</script><style>@font-face {
@@ -27,6 +44,24 @@ if (window.localStorage.getItem('theme-mode') === 'dark')
 }</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script async src="//unpkg.com/valine/dist/Valine.min.js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@10.5.0/dist/mermaid.esm.mjs';
 window.mermaid = mermaid;
 code.paintMermaid();
+</script><script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js"></script><script>MathJax.Hub.Config({
+  menuSettings: {
+    zoom: "None"
+  },
+  showMathMenu: false,
+  jax: ["input/TeX","output/CommonHTML"],
+  extensions: ["tex2jax.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js"],
+    equationNumbers: {
+      autoNumber: "AMS"
+    }
+  },
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]]
+  }
+});
 </script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {new Valine({
  el: '#valine'
  , appId: 'lzRgHUERfqoIJzb0bPUyfePx-MdYXbMMI'
@@ -77,7 +112,79 @@ lightGallery(document.getElementById('post-bg'), {
    }
  }
 });
-document.addEventListener("pjax:complete", reset);reset()})</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup" tabindex="0"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">首页</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">归档</span></a></li><li class="navItem"><a class="navBlock" href="/about/"><span class="navItemTitle">关于</span></a></li><li class="navItem"><a class="navBlock" href="/links-portals/"><span class="navItemTitle">星门</span></a></li></ol></nav></header><article><div id="post-bg"><div id="post-title"><h1>单纯形法算法详解</h1></div><hr><div id="post-content"><div id="paginator"></div></div><div id="post-footer"><div id="pages" style="justify-content: flex-end"><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/2024/11/19/%E7%94%A8Matlab%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%96%AF%E6%B6%88%E5%85%83%E6%B3%95/">用Matlab实现高斯消元法 上一篇 →</a></div></div></div><div id="comments"><div id="valine"></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="回到顶部" style="opacity: 0; display: none;">∧ </a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="切换主题"></a><a onclick="
+document.addEventListener("pjax:complete", reset);reset()})</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup" tabindex="0"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">首页</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">归档</span></a></li><li class="navItem"><a class="navBlock" href="/about/"><span class="navItemTitle">关于</span></a></li><li class="navItem"><a class="navBlock" href="/links-portals/"><span class="navItemTitle">星门</span></a></li></ol></nav></header><article><div id="post-bg"><div id="post-title"><h1>单纯形法算法详解</h1><div id="post-info"><span>文章发布时间: <div class="control"><time datetime="2024-12-10T15:45:29.000Z" id="date"> 2024-12-10</time></div></span><br><span>最后更新时间: <div class="control"><time datetime="2025-03-21T07:30:30.247Z" id="updated"> 2025-03-21</time></div></span><br><span>文章总字数: <div class="control">647</div></span><br><span>预计阅读时间: <div class="control">2 分钟</div></span><br><span id="busuanzi_container_page_pv">页面浏览: <span class="control" id="busuanzi_value_page_pv">加载中...</span></span></div></div><hr><div id="post-content"><h1 id="用处"><a href="#用处" class="headerlink" title="用处"></a>用处</h1><p>单纯形法是一种线性规划迭代算法，能够在有限步内找到线性规划问题的最优解（如果解存在的话）。</p>
+<h1 id="算法步骤"><a href="#算法步骤" class="headerlink" title="算法步骤"></a>算法步骤</h1><p>以下述线性规划问题为例：</p>
+<script type="math/tex; mode=display">
+maxz = 2x_{1} + 3x_{2}
+\\s.t.
+\left\{\begin{matrix}
+  x_{1} + 2x_{2} & \le & 8\\
+  4x_{1} & \le & 16\\
+  4x_{2} & \le & 12\\
+  x_{1} , x_{2} & \ge & 0
+\end{matrix}\right.</script><p>其中，第一行是线性目标，大括号里面的内容是约束条件</p>
+<h2 id="化为标准型"><a href="#化为标准型" class="headerlink" title="化为标准型"></a>化为标准型</h2><ul>
+<li><p>确定线性目标是求的max问题，如果是min问题，则将等号两边都乘以-1，从而转变为max问题。</p>
+</li>
+<li><p>确定最后一行的每一个x都大于等于0，如果有小于等于的x，则将那个x变成两个大于等于0的数的相减。</p>
+</li>
+</ul>
+<p>​    例如：如果<script type="math/tex">x_{1}\le0</script>，则<script type="math/tex">x_{1}</script>可以化成<script type="math/tex">x_{1}^{'}-x_{1}^{''}</script>。</p>
+<p>​    转换以后将最后一行变成<script type="math/tex">x_{1}^{'}\ge 0, x_{1}^{''}\ge 0, x_{2}\ge 0</script>，将最后一行以外约束条件里面的<script type="math/tex">x_{1}</script>也变成<script type="math/tex">x_{1}^{'}-x_{1}^{''}</script>。</p>
+<ul>
+<li><p>确定最后一行以外的约束条件都是$\le$，如果有$\ge$，则不等号两边乘以-1从而变号为$\le$。</p>
+</li>
+<li><p>单纯形法硬性要求后续约束条件化成的矩阵中存在单位矩阵，所以对于没有单位矩阵的情况，需要手动凑单位矩阵。除最后一行以外的约束条件有几行，就增加几个额外的大于等于0的变量用于凑单位矩阵。</p>
+<p>例如：上述线性规划问题凑完以后的结果为</p>
+<script type="math/tex; mode=display">
+maxz = 2x_{1} + 3x_{2} + 0x_{3} + 0x_{4} + 0x_{5}
+\\s.t.
+\left\{\begin{matrix}
+  x_{1} + 2x_{2} + x_{3} & = & 8\\
+  4x_{1} + x_{4} & = & 16\\
+  4x_{2} + x_{5} & = & 12\\
+  x_{1}, x_{2}, x_{3}, x_{4}, x_{5} & \ge & 0
+\end{matrix}\right.</script></li>
+</ul>
+<p>​    增加了三个新的变量<script type="math/tex">x_{3}, x_{4}, x_{5}</script>,这样不仅凑出了单位矩阵(后续解释)，而且还去掉了不等号。</p>
+<ul>
+<li>将其余每一行缺失的变量都用0补上，得到最终化为标准型的结果为：<script type="math/tex; mode=display">
+maxz = 2x_{1} + 3x_{2} + 0x_{3} + 0x_{4} + 0x_{5}
+\\s.t.
+\left\{\begin{matrix}
+  1x_{1} + 2x_{2} + 1x_{3} + 0x_{4} + 0x_{5} & = & 8\\
+  4x_{1} + 0x_{2} + 0x_{3} + 1x_{4} + 0x_{5} & = & 16\\
+  0x_{1} + 4x_{2} + 0x_{3} + 0x_{4} + 1x_{5} & = & 12\\
+  x_{1}, x_{2}, x_{3}, x_{4}, x_{5} & \ge & 0
+\end{matrix}\right.</script></li>
+</ul>
+<h2 id="列出初始单纯形表"><a href="#列出初始单纯形表" class="headerlink" title="列出初始单纯形表"></a>列出初始单纯形表</h2><table border="1" width="500px" cellspacing="10">
+<tr>
+  <th align="left">表头(左对齐)</th>
+  <th align="center">表头(居中)</th>
+  <th align="right">表头(右对齐)</th>
+</tr>
+<tr>
+  <td>行1，列1</td>
+  <td>行1，列2</td>
+  <td>行1，列3</td>
+</tr>
+<tr>
+  <td colspan="2" align="center">合并行单元格</td>
+  <td>行2，列3</td>
+</tr>
+<tr>
+  <td rowspan="2" align="center">合并列单元格</td>
+  <td>行3，列2</td>
+  <td>行3，列3</td>
+</tr>
+<tr>
+  <td>行4，列2
+  </td><td>行4，列3</td>
+</tr>
+</table>
+
+<div id="paginator"></div></div><div id="post-footer"><div id="pages" style="justify-content: flex-end"><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/2024/11/19/%E7%94%A8Matlab%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%96%AF%E6%B6%88%E5%85%83%E6%B3%95/">用Matlab实现高斯消元法 上一篇 →</a></div></div></div><div id="comments"><div id="valine"></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="回到顶部" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="文章目录">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="切换主题"></a><a onclick="
         const bgm = document.getElementById('bgm');
         const control = document.getElementById(&quot;bgm-control&quot;);
         if (bgm.paused) {
@@ -89,4 +196,4 @@ document.addEventListener("pjax:complete", reset);reset()})</script><meta name="
           control.setAttribute(&quot;fill&quot;, &quot;currentColor&quot;);
           control.style.transform = &quot;scaleY(.5)&quot;;
         }
-      "><svg id="bgm-control" viewBox="0 0 30 34" fill="currentColor" style="width: auto; height: 80%; transition: transform .3s;"><path d="M25.998 23.422V11.29h3.999v12.132h-3.999zM19.497 6.234h4.001v22.243h-4.001V6.234zM12.998.867h4v32.978h-4V.867zm-6.5 5.367h4.001v22.243H6.498V6.234zm-6.5 5.056h4v12.132h-4V11.29z"></path></svg><audio id="bgm" src="https://raw.githubusercontent.com/fallingnight131/media_resource/blog/audio/lifestream(machine).mp3" loop crossorigin="anonymous"></audio></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="/img/avatar/amiya.jpg" alt="Logo"></a><h1 id="Dr"><a href="/">落夜织寒</a></h1><div id="description"><p>你说这片大地不是无限的，它只是一颗圆球上的一摞泥土; 你说星星和我们脚下的一样，都是天轨上漂行的舟筏......</p></div><div id="social-links"><a class="social" target="_blank" rel="noopener" href="https://github.com/fallingnight131"><i class="fab fa-github" alt="GitHub"></i></a><a class="social" href="mailto:fallingnight131@gmail.com"><i class="fa fa-envelope" alt="E-Mail"></i></a><a class="social" target="_blank" rel="noopener" href="https://space.bilibili.com/436807040"><i class="fab fa-bilibili" alt="BiliBili"></i></a><a class="social" target="_blank" rel="noopener" href="https://www.zhihu.com/people/29-1-50-73"><i class="fab fa-zhihu" alt="Zhihu"></i></a></div></div><div id="aside-block"></div><footer><nobr><span class="icp-title">ICP</span><a class="icp-content" target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">暂由github pages托管</a></nobr><br><nobr><span class="icp-title">copyright</span><a class="icp-content" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a></nobr><br><nobr>构建自 <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> 使用主题 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> 主题作者 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas></body></html>
+      "><svg id="bgm-control" viewBox="0 0 30 34" fill="currentColor" style="width: auto; height: 80%; transition: transform .3s;"><path d="M25.998 23.422V11.29h3.999v12.132h-3.999zM19.497 6.234h4.001v22.243h-4.001V6.234zM12.998.867h4v32.978h-4V.867zm-6.5 5.367h4.001v22.243H6.498V6.234zm-6.5 5.056h4v12.132h-4V11.29z"></path></svg><audio id="bgm" src="https://raw.githubusercontent.com/fallingnight131/media_resource/blog/audio/lifestream(machine).mp3" loop crossorigin="anonymous"></audio></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="/img/avatar/amiya.jpg" alt="Logo"></a><h1 id="Dr"><a href="/">落夜织寒</a></h1><div id="description"><p>你说这片大地不是无限的，它只是一颗圆球上的一摞泥土; 你说星星和我们脚下的一样，都是天轨上漂行的舟筏......</p></div><div id="social-links"><a class="social" target="_blank" rel="noopener" href="https://github.com/fallingnight131"><i class="fab fa-github" alt="GitHub"></i></a><a class="social" href="mailto:fallingnight131@gmail.com"><i class="fa fa-envelope" alt="E-Mail"></i></a><a class="social" target="_blank" rel="noopener" href="https://space.bilibili.com/436807040"><i class="fab fa-bilibili" alt="BiliBili"></i></a><a class="social" target="_blank" rel="noopener" href="https://www.zhihu.com/people/29-1-50-73"><i class="fab fa-zhihu" alt="Zhihu"></i></a></div></div><div id="aside-block"><div id="toc-div"><h1>目录</h1><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%94%A8%E5%A4%84"><span class="toc-number">1.</span> <span class="toc-text">用处</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AE%97%E6%B3%95%E6%AD%A5%E9%AA%A4"><span class="toc-number">2.</span> <span class="toc-text">算法步骤</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%96%E4%B8%BA%E6%A0%87%E5%87%86%E5%9E%8B"><span class="toc-number">2.1.</span> <span class="toc-text">化为标准型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E5%87%BA%E5%88%9D%E5%A7%8B%E5%8D%95%E7%BA%AF%E5%BD%A2%E8%A1%A8"><span class="toc-number">2.2.</span> <span class="toc-text">列出初始单纯形表</span></a></li></ol></li></ol></div></div><footer><nobr><span class="icp-title">ICP</span><a class="icp-content" target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">暂由github pages托管</a></nobr><br><nobr><span class="icp-title">copyright</span><a class="icp-content" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a></nobr><br><nobr>构建自 <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> 使用主题 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> 主题作者 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas></body></html>
