@@ -10,7 +10,24 @@
   font-family: 'JetBrains Mono';
   src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
 }
-</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"键入以继续","blurHolder":"数据检索","noResult":"无 $0 相关数据"},"code":{"codeInfo":"$0 - $1 行","copy":"复制"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
+</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"键入以继续","blurHolder":"数据检索","noResult":"无 $0 相关数据"},"code":{"codeInfo":"$0 - $1 行","copy":"复制"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js"></script><script>MathJax.Hub.Config({
+ menuSettings: {
+   zoom: "None"
+ },
+ showMathMenu: false,
+ jax: ["input/TeX","output/CommonHTML"],
+ extensions: ["tex2jax.js"],
+ TeX: {
+   extensions: ["AMSmath.js","AMSsymbols.js"],
+   equationNumbers: {
+     autoNumber: "AMS"
+   }
+ },
+ tex2jax: {
+   inlineMath: [["\\(", "\\)"]],
+   displayMath: [["\\[", "\\]"]]
+ }
+});</script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
  document.documentElement.setAttribute('theme-mode', 'light')
 if (window.localStorage.getItem('theme-mode') === 'dark')
  document.documentElement.setAttribute('theme-mode', 'dark')</script><style>@font-face {
@@ -27,6 +44,24 @@ if (window.localStorage.getItem('theme-mode') === 'dark')
 }</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script async src="//unpkg.com/valine/dist/Valine.min.js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@10.5.0/dist/mermaid.esm.mjs';
 window.mermaid = mermaid;
 code.paintMermaid();
+</script><script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js"></script><script>MathJax.Hub.Config({
+  menuSettings: {
+    zoom: "None"
+  },
+  showMathMenu: false,
+  jax: ["input/TeX","output/CommonHTML"],
+  extensions: ["tex2jax.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js"],
+    equationNumbers: {
+      autoNumber: "AMS"
+    }
+  },
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]]
+  }
+});
 </script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {new Valine({
  el: '#valine'
  , appId: 'lzRgHUERfqoIJzb0bPUyfePx-MdYXbMMI'
@@ -93,10 +128,10 @@ document.addEventListener("pjax:complete", reset);reset()})</script><meta name="
 <p>将准备好的文件放在如下位置<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">your-blog/<br>├── source/<br>│   ├── assets/<br>│   │   ├── music/<br>│   │   │   └── yourmusic.mp3<br>│   │   ├── images/<br>│   │   │   └── yourmusic.jpg<br>│   │   └── lrc/<br>│   │       └── yourmusic.lrc<br>├── themes/<br>│   └── your-theme/<br>│       └── layout/<br>│           └── layout.pug<br>├── _config.yml<br>└── ...<br></code></pre></td></tr></table></figure><br>在source下创建相应的文件夹，并将文件放入。</p>
 <h1 id="在某篇文章添加音乐"><a href="#在某篇文章添加音乐" class="headerlink" title="在某篇文章添加音乐"></a>在某篇文章添加音乐</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs markdown">&#123;% aplayerlist %&#125;<br>&#123;<br><span class="hljs-code">    &quot;autoplay&quot;: true,</span><br><span class="hljs-code">    &quot;showlrc&quot;: 0,</span><br><span class="hljs-code">    &quot;mutex&quot;: true,</span><br><span class="hljs-code">    &quot;music&quot;: [</span><br><span class="hljs-code">        &#123;</span><br><span class="hljs-code">            &quot;title&quot;: &quot;music name&quot;,</span><br><span class="hljs-code">            &quot;author&quot;: &quot;author name&quot;,</span><br><span class="hljs-code">            &quot;url&quot;: &quot;/assets/music/music.mp3&quot;,</span><br><span class="hljs-code">            &quot;pic&quot;: &quot;/assets/images/music.jpg&quot;,</span><br><span class="hljs-code">            &quot;lrc&quot;: &quot;/assets/lrc/music.lrc&quot;</span><br><span class="hljs-code">        &#125;</span><br><span class="hljs-code">    ]</span><br><span class="hljs-code">&#125;</span><br><span class="hljs-code">&#123;% endaplayerlist %&#125;</span><br></code></pre></td></tr></table></figure>
 <p>直接在想加音乐的文章中加入上述代码<br>就会得到下面的效果（没有的话就刷新一下页面）：<br>
-        <div id="aplayer-EtBOcizw" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+        <div id="aplayer-XJGQEDKX" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
 			  <script>
 				  var options = {"narrow":false,"autoplay":false,"showlrc":0,"mutex":true,"music":[{"title":"ALLU","author":"泽野弘之","url":"https://raw.githubusercontent.com/fallingnight131/media_resource/blog/audio/ALLU.mp3","pic":"https://raw.githubusercontent.com/fallingnight131/media_resource/blog/image/20250308032711151.png"}]};
-				  options.element = document.getElementById("aplayer-EtBOcizw");
+				  options.element = document.getElementById("aplayer-XJGQEDKX");
 				  var ap = new APlayer(options);
 			    window.aplayers || (window.aplayers = []);
 				  window.aplayers.push(ap);
